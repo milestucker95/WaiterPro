@@ -22,6 +22,14 @@ class RateViewController: UIViewController {
     }
     
 
+   
+    @IBAction func submit(sender: AnyObject) {
+        
+         self.performSegueWithIdentifier("unwindToMenu", sender: self)
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 

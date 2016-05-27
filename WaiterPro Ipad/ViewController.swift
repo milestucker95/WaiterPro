@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tableView: UITableView!
     
-    var dataArray = ["red", "blue", "green", "yellow", "orange"]
+    var dataArray = ["Appetizers", "Salads", "Pasta", "Specialties", "Drinks"]
 
     override func viewDidLoad() {
         super.viewDidLoad()

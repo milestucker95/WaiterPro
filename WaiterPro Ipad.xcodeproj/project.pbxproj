@@ -15,8 +15,8 @@
 		FF6D5E9D1CF796FD00A804E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6D5E9B1CF796FD00A804E2 /* LaunchScreen.storyboard */; };
 		FF6D5EA81CF796FD00A804E2 /* WaiterPro_IpadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EA71CF796FD00A804E2 /* WaiterPro_IpadTests.swift */; };
 		FF6D5EB31CF796FD00A804E2 /* WaiterPro_IpadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EB21CF796FD00A804E2 /* WaiterPro_IpadUITests.swift */; };
-		FF6D5EC11CF7AF5B00A804E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EC01CF7AF5B00A804E2 /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		FF6D5EC31CF7AFD300A804E2 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EC21CF7AFD300A804E2 /* RateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FF6D5EC11CF7AF5B00A804E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EC01CF7AF5B00A804E2 /* HomeViewController.swift */; };
+		FF6D5EC31CF7AFD300A804E2 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6D5EC21CF7AFD300A804E2 /* RateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */

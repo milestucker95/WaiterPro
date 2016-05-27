@@ -12,6 +12,13 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var OrderLabel: UIButton!
 
+    @IBOutlet weak var checkButton: UIButton!
+    
+    
+    @IBOutlet weak var RefillButton: UIButton!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,7 +32,14 @@ class HomeViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+@IBAction func unwindToMenu(segue: UIStoryboardSegue) {
+    
+    
+    }
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -37,23 +51,73 @@ class HomeViewController: UIViewController {
     */
     
     
-    
+  
     
 
     @IBAction func orderPressed(sender: UIButton) {
        
-        OrderLabel.transform = CGAffineTransformMakeScale(0.1, 0.1)
+     
         
-        UIView.animateWithDuration(2.0,
-            delay: 0,
-            usingSpringWithDamping: 0.2,
-            initialSpringVelocity: 6.0,
-            options: UIViewAnimationOptions.AllowUserInteraction,
-            animations: {
-                self.OrderLabel.transform = CGAffineTransformIdentity
-            }, completion: nil)
-
-
+        let alertTitle = "Alert"
+        let alertMessage = "Waiter is on the way"
+        let alertOkButtonText = "OK"
+        
+        
+        let alertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: nil, otherButtonTitles: alertOkButtonText)
+        alertView.show()
+    }
+ 
+    @IBAction func CheckPressed(sender: UIButton) {
+        
+        
+        let alertTitle = "Alert"
+        let alertMessage = "Your bill is being prepared"
+        let alertOkButtonText = "OK"
+        
+        
+        
+        let alertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: nil, otherButtonTitles: alertOkButtonText)
+        alertView.show()
+        
+    }
+    
+    
+    @IBAction func refillPressed(sender: UIButton) {
+        
+        let alertTitle = "Alert"
+        let alertMessage = "Your refill is being prepared"
+        let alertOkButtonText = "OK"
+        
+        
+        
+        let alertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: nil, otherButtonTitles: alertOkButtonText)
+        alertView.show()
+    }
+    
+    
+    @IBAction func helpPressed(sender: UIButton) {
+        
+        let alertTitle = "Alert"
+        let alertMessage = "Your waiter will arrive shortly"
+        let alertOkButtonText = "OK"
+        
+        
+        
+        let alertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: nil, otherButtonTitles: alertOkButtonText)
+        alertView.show()
+    }
+    
+    
+    @IBAction func managerPressed(sender: UIButton) {
+        
+        let alertTitle = "Alert"
+        let alertMessage = "The manager will arrive shortly"
+        let alertOkButtonText = "OK"
+        
+        
+        
+        let alertView = UIAlertView(title: alertTitle, message: alertMessage, delegate: nil, cancelButtonTitle: nil, otherButtonTitles: alertOkButtonText)
+        alertView.show()
     }
     
     
